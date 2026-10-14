@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "stackdropper",
+  "version": "${version}",
+  "name": "Stack Dropper",
+  "description": "Press V to auto-drop stacks from your inventory on a timer. Press Tab to open the settings menu.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.stackdropper.StackDropperClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
